@@ -13,3 +13,5 @@ Copyright 2021 Binary
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+   
+   All rights reserved to HD https://www.youtube.com/channel/UClKO4zzWFJ1S_W6V0uE8-uQ
