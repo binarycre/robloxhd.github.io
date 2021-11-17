@@ -15,3 +15,5 @@ Copyright 2021 Binary
    limitations under the License.
    
    All rights reserved to HD https://www.youtube.com/channel/UClKO4zzWFJ1S_W6V0uE8-uQ
+
+   For any support contact binary#3747 on discord
