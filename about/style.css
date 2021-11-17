@@ -16,6 +16,6 @@ body{
   border-radius: 24px;
 }
 
-h1,a,p{
+h1,h2,a,p{
   color: orange;
 }
