@@ -1,19 +1,3 @@
 # robloxhd.github.io
-
-Copyright 2021 Binary
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-   
-   All rights reserved to HD https://www.youtube.com/channel/UClKO4zzWFJ1S_W6V0uE8-uQ
-
-   For any support contact binary#3747 on discord
+Designed By: HD#3067
+For any support contact binary#9999 on discord
