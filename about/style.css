@@ -19,9 +19,5 @@ body{
 h1,h2,a,p{
   color: orange;
 }
-.binaryuser{
-  color: green;
-}
-.hduser{
-  color: red;
-}
+.binaryuser{color: green}
+.hduser{color: red}
