@@ -19,3 +19,6 @@ body{
 h1,h2,a,p{
   color: orange;
 }
+b{
+  color: green;
+}
