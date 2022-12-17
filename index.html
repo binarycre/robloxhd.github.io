@@ -33,23 +33,7 @@
 
 <section class="u-align-center u-clearfix u-grey-70 u-section-2" id="sec-4227">
 <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-<div class="u-clearfix u-expanded-width u-gutter-0 u-layout-wrap u-layout-wrap-1">
-<div class="u-layout">
-<div class="u-layout-row">
-<div class="u-align-left u-container-style u-grey-70 u-layout-cell u-left-cell u-size-30 u-size-xs-60 u-layout-cell-1" src="">
-<div class="u-container-layout u-valign-middle u-container-layout-1" src=""><img class="u-image u-image-1" data-image-height="225" data-image-width="328" src="images/jail.png" /></div>
-</div>
-
-<div class="u-align-left u-container-style u-grey-70 u-layout-cell u-right-cell u-size-30 u-size-xs-60 u-layout-cell-2">
-<div class="u-container-layout u-valign-middle u-container-layout-2">
-<h2 class="u-text u-text-default u-text-1">Jailbreak value list</h2>
-
-<p class="u-text u-text-2">You can take a look at the value list:</p>
-<a class="u-border-2 u-border-white u-btn u-btn-rectangle u-button-style u-none u-btn-2" href="https://www.robloxhd.com">Here</a></div>
-</div>
-</div>
-</div>
-</div>
+<p id="bincdtimer"></p>
 </div>
 </section>
 	
@@ -80,4 +64,34 @@
 <p>Website designed by: <a href="https://www.youtube.com/channel/UClKO4zzWFJ1S_W6V0uE8-uQ">HD</a></p>
 </footer>
 </body>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("December 24, 2022 18:00:00").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("bincdtimer").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("bincdtimer").innerHTML = "The event has already started or ended.";
+  }
+}, 1000);
+</script>
 </html>
